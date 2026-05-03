@@ -29,7 +29,10 @@
     *   Remove um container permanentemente (ele precisa estar parado antes).
 *   **docker images**
     *   Lista todas as imagens que você baixou ou buildou no seu computador.
-
+*   **docker build -t NOME_DA_IMAGEM:VERSAO .**
+    *   Cria a imagem, o ponto final é importante pro dockerfile saber que está na root
+*   **docker run NOME_DA_IMAGEM:VERSAO**
+    *   Cria a imagem, o ponto final é importante pro dockerfile saber que está na root
 ---
 
 ### Interação e Desenvolvimento
