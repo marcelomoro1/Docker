@@ -13,7 +13,7 @@
 
 * git pull origin main NÃO deu certo? -> git fetch origin | git reset --hard origin/main
 
-* cd de volta para a pasta principal -> cd /var/www/html/docker-manutencao
+* cd de volta para a pasta raiz do projeto -> cd /var/www/html/docker-manutencao
 
 * cd até a pasta do frontend e faça o mesmo
 
