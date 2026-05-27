@@ -38,3 +38,8 @@ E essa v1.0.2 deu problema apenas use o comando:
 
 Por que esse comando vai voltar para a versão anterior que já foi buildada e que está funcionado, então não pode usar o build nele pra não sobreescrever a versão
 
+## Verificar imagem atual
+`docker ps` (verifica todas imagens)
+`docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}"` (verifica todas só que mais organizado)
+
+
