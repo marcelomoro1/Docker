@@ -42,4 +42,9 @@ Por que esse comando vai voltar para a versão anterior que já foi buildada e q
 `docker ps` (verifica todas imagens)
 `docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}"` (verifica todas só que mais organizado)
 
+## Remover imagem
+docker rmi 
+
+## Verificar todas imagens no servidor
+docker image ls
 
